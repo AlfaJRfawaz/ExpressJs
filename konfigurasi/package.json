@@ -1,0 +1,21 @@
+{
+  "name": "konfigurasi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "about.js",
+  "scripts": {
+    "dev": "nodemon about.js",
+    "production": "npx cross-env PORT=5000 node about.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
